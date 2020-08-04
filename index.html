@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rofai</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/home.min.css">
+
+
+  <script>
+    var open = false;
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      setTimeout(function(){
+        this.open=true;
+      }, 1);
+      
+    }
+    
+    function closeNav() {
+      if(this.open){
+        this.open=false;
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      
+    }
+
+    </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+</head>
+
+<body onscroll="myFunction()" id="myDIV" onclick="closeNav()">
+
+
+  <div id="mySidenav" class="sidenav" style="z-index: 17;  background-image: url(../../assets/imagenes/home/fondo1.png);">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">HOME</a>
+    <a href="aplicaciones.html">APLICACIONES</a>
+    <a href="nosotros.html">NOSOTROS</a>
+    <a href="contacto.html">CONTACTO</a>
+  </div>
+
+
+  <div class="container-fluid px-0 home" >
+    <div class="imghome1">
+
+      <!-- <div class="div-app-bar">
+        <div class="container container-encabezado">
+          <div class="encabezado">
+            <button class="button-contactenos">CONTACTENOS</button>
+            <img src="assets/imagenes/iconos/iconomenu.svg" alt="">
+          </div>
+        </div>
+      </div> -->
+      <div>
+
+        <div class="container-fluid container-nav nav-top-float"  >
+          <div class="col-md-12">
+            <div class="container container-encabezado" style="padding: 01%;">
+              <div class="encabezado">
+                <a href="contacto.html#contactenos">
+                  <button class="button-contactenos" >CONTÁCTENOS</button>
+                </a>
+                <img src="assets/imagenes/iconos/iconomenu.svg" alt="" onclick="openNav()">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid container-nav">
+          <div class="col-md-12">
+            <div class="container container-encabezado">
+              <div class="encabezado">
+                <a href="contacto.html#contactenos">
+                  <button class="button-contactenos" >CONTÁCTENOS</button>
+                </a>
+                
+                <img src="assets/imagenes/iconos/iconomenu.svg" alt="" onclick="openNav()">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="container-fluid div-container">
+          <div class="row div-row">
+
+            <div class="col-md-5 section-text-header">
+              <div class="sub-section-text-header">
+                <p class="p-texto-entretenimiento animation-fade animate__animated animate__bounce">tu emprendimiento</p>
+
+                <p class="p-presente animation-fade animate__animated animate__bounce">debe estar presente en todo el mundo</p>
+                <div class="computadora-home1 animation-fade animate__backInRight" style="display: none;">
+                  <img src="assets/imagenes/home/homecomputadora.png" alt="">
+                </div>
+
+                <div class="container container-contador1" style="display: none;">
+                  <div class="gamarraya-contador">
+                    <div class=" text-white gamarra-numerador">
+                      <span><img src="/assets/imagenes/iconos/LeftArrow.svg" alt=""></span>
+                      <p class="p-numerador mx-3 animate__bounceInLeft">GAMARRAYA!:1/10</p>
+                      
+                      <span><img src="/assets/imagenes/iconos/RightArrow.svg" alt=""></span>
+                    </div>
+        
+        
+                  </div>
+                </div>
+
+                <div class="div-exitos">
+                  <p class="p-exitos animation-fade animate__animated animate__bounce">VER NUESTROS CASOS DE EXITO</p>
+                  <span><img class="animation-fade" src="/assets/imagenes/iconos/IconExitos.svg" alt="" style="cursor: pointer;"></span>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="col-md-7 computadora-home2 animation-fade animate__backInRight">
+              <img src="assets/imagenes/home/homecomputadora.png" alt="">
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="container container-contador2">
+          <div class="row gamarraya-contador">
+            <div class="col-md-8"></div>
+            <div class="col-md-4 text-white gamarra-numerador">
+              <p class="p-numerador animate__bounceInLeft">GAMARRAYA!:1/10</p>
+              <span class="icon-lefth"><img src="/assets/imagenes/iconos/LeftArrow.svg" alt=""></span>
+              <span><img src="/assets/imagenes/iconos/RightArrow.svg" alt=""></span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row seccion-hacemos">
+            <div class="col-md-11">
+              <p class="p-hacemos animate__flipInY">LO QUE HACEMOS</p>
+              <p class="col-md-12 p-texto-hacemos animate__flipInY">Por medio de las diversas herramientas tecnológicas, creativas y con
+                el
+                apoyo de todo el equipo que conformamos, llevaremos tu emprendimiento a la óptima realización de
+                negocio.
+              </p>
+            </div>
+            <div style="width: 20px;" class="iconos-redes">
+              <span><a target="_blank" href="https://www.facebook.com/rofai.biz/"><img src="/assets/imagenes/iconos/icon-twitter.svg" alt=""></a></span>
+              <span><a target="_blank" href="https://www.facebook.com/rofai.biz/"><img src="/assets/imagenes/iconos/icon-facebook.svg" alt=""></a></span>
+              <span><a target="_blank" href="https://www.instagram.com/consultoriarofai/"><img src="/assets/imagenes/iconos/icon-instagram.svg" alt=""></a></span>
+              <span><a target="_blank" href="https://www.youtube.com/channel/UCR0EUPT6npUelnhu7nHvmQA"><img src="/assets/imagenes/iconos/icon-youtube.svg" alt=""></a></span>
+            </div>
+
+            <div class="row col-md-12 div-numero-clientes">
+              <div class="col-md-5 color-div-clientes">
+                <p class="p-numero-clientes">160+</p>
+                <p class="p-texto-cliente">CLIENTES SATISFECHOS</p>
+              </div>
+              <div class="col-md-5 color-div-web">
+                <p class="p-numero-web">330+</p>
+                <p class="p-texto-web">WEBS DESARROLLADAS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <div class="imghome2">
+      <div class="backgroundimagelosmejores">
+        <div class="backgroundimageelipseleft">
+          <div class="backgroundimageelipserigth">
+
+            <div class="container">
+              <div class="mejores">
+                <div></div>
+                <p class="p-text-somos">SOMOS</p>
+                <p class="p-text-mejores">LOS MEJORES EN</p>
+              </div>
+            </div>
+
+
+            <div class="container card-scroll card2" style="display: none;" >
+
+
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span>
+                      <img src="/assets/imagenes/iconos/LeftArrow.svg" alt="">
+                    </span>
+                  </a>
+
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+
+
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span >
+                      <img src="/assets/imagenes/iconos/RightArrow.svg" alt="">
+                    </span>
+                  </a>
+
+                </ol>
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+
+                    <div class="row">
+
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/phone.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                            <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                    </div>
+
+                  </div>
+
+                  <div class="carousel-item">
+
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/computadora.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">DESARROLLO WEB</div>
+                            <p class="card-text texto-curso">Has que tu negocio tenga una imagen particular y única. Nosotros desarrollamos el logo y la página web de tu negocio.</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                
+                  
+                  
+
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/cursosap.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">MARKETING</div>
+                            <p class="card-text texto-curso">Logra estar presente en las redes sociales y en los motores
+                              de búsqueda. Nosotros te ayudamos!</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+
+                    <div class="row">
+
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/cursosap.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">INTELIGENCIA ARTIFICIAL</div>
+                            <p class="card-text texto-curso">Convierte tus visitas en contacto atendiendo 24x7. Desarrollamos tu chatbot para que puedas hacerlo realidad!</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item ">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/cursosap.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">CURSOS SAP</div>
+                            <p class="card-text texto-curso">¡Aprende ERP SAP desde cero hasta obtener un alto perfil profesional con nuestros cursos modulares. Recibe una alta especialización con los mejores instructores SAP!</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/cursosap.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">SISTEMA DE VENTAS</div>
+                            <p class="card-text texto-curso">¡Si tienes un control de ventas adecuado, el trabajo se facilita y la labor de ventas se hace más fácil, lo cual puede dar como resultado clientes satisfechos!</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/cursosap.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">TIENDAS VIRTUALES</div>
+                            <p class="card-text texto-curso">Vende las 24 horas, desde cualquier parte del mundo. Creamos y desarrollamos tu tienda virtual hecho a medida, además te asesoramos en base a todo nuestro conocimiento y experiencia en proyectos de Comercio Electrónico</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  
+
+                </div>
+              </div>
+            </div>
+
+            <div class="container card-scroll card1"  >
+
+
+              <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                    <span>
+                      <img src="/assets/imagenes/iconos/LeftArrow.svg" alt="">
+                    </span>
+                  </a>
+
+                  <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+
+                  <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                    <span>
+                      <img src="/assets/imagenes/iconos/RightArrow.svg" alt="">
+                    </span>
+                  </a>
+
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+
+                    <div class="row">
+
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/phone.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                            <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/computadora.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">DESARROLLO WEB</div>
+                            <p class="card-text texto-curso">Has que tu negocio tenga una imagen particular y única. Nosotros desarrollamos el logo y la página web de tu negocio.</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/cursosap.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">MARKETING</div>
+                            <p class="card-text texto-curso">Logra estar presente en las redes sociales y en los motores de búsqueda. Nosotros te ayudamos!</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+                      
+
+                    </div>
+
+                  </div>
+                  <div class="carousel-item">
+
+                    <div class="row">
+
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/cursosap.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">INTELIGENCIA ARTIFICIAL</div>
+                            <p class="card-text texto-curso">Convierte tus visitas en contacto atendiendo 24x7. Desarrollamos tu chatbot para que puedas hacerlo realidad!</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/cursosap.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">CURSOS SAP</div>
+                            <p class="card-text texto-curso">¡Aprende ERP SAP desde cero hasta obtener un alto perfil profesional con nuestros cursos modulares. Recibe una alta especialización con los mejores instructores SAP!</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/cursosap.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">SISTEMA DE VENTAS</div>
+                            <p class="card-text texto-curso">¡Si tienes un control de ventas adecuado, el trabajo se facilita y la labor de ventas se hace más fácil, lo cual puede dar como resultado clientes satisfechos!</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+                  <div class="carousel-item">
+
+                    <div class="row">
+
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="card-title logo-card">
+                              <img src="/assets/imagenes/iconos/cursosap.svg" alt="">
+                            </div>
+                            <div class="card-title div-guion">
+                              <div class="dibujo-guion"></div>
+                            </div>
+                            <div class="card-title nombre-curso">TIENDAS VIRTUALES</div>
+                            <p class="card-text texto-curso">Vende las 24 horas, desde cualquier parte del mundo. Creamos y desarrollamos tu tienda virtual hecho a medida, además te asesoramos en base a todo nuestro conocimiento y experiencia en proyectos de Comercio Electrónico</p>
+                            <button class="ver-mas-card">VER MÁS</button>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="container div-portafolio">
+              <div class="row">
+                <div class="col-md-11 div-text-portafolio">
+                  <p class="text-portafolio">PORTAFOLIO</p>
+                </div>
+                <div style="width: 20px;" class="iconos-redes">
+                  <span><a target="_blank" href="https://www.facebook.com/rofai.biz/"><img src="/assets/imagenes/iconos/icon-twitter.svg" alt=""></a></span>
+                  <span><a target="_blank" href="https://www.facebook.com/rofai.biz/"><img src="/assets/imagenes/iconos/icon-facebook.svg" alt=""></a></span>
+                  <span><a target="_blank" href="https://www.instagram.com/consultoriarofai/"><img src="/assets/imagenes/iconos/icon-instagram.svg" alt=""></a></span>
+                  <span><a target="_blank" href="https://www.youtube.com/channel/UCR0EUPT6npUelnhu7nHvmQA"><img src="/assets/imagenes/iconos/icon-youtube.svg" alt=""></a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="imghome3">
+      <div class="container-fluid">
+        <div class="row section-apps">
+          <div class="col-md-5">
+            <img src="/assets/imagenes/home/app1.png" alt="" class="img-app1">
+            <span><img src="/assets/imagenes/iconos/RightArrow.svg" alt="" class="rigth-icon-app" style="display: none;"></span>
+          </div>
+          <div class="col-md-5 div-text-apps">
+            <div class="col-md-8 div-text-cliente">
+              <p class="text-cliente">GamarraYA!</p>
+              <p class="text-contenido-cliente">He tenido la oportunidad de trabajar con el equipo de ROFAI
+                en la implementación de la plataforma B2C de GamarraYA!. Me ha
+                gustado el profesionalismo de todo el equipo técnico y ejecutivo, en su
+                organización  y orden para gestionar los proyectos, y prestar la 
+                debida importancia en cada detalle. Gracias a ROFAI logramos alcanzar nuestros
+                objetivos!</p>
+              <div class="div-vistas">
+                <div class="div-visita">
+                  <p class="p-vista-numero">59K</p>
+                  <p class="p-texto-visitas">VISITAS AL MES</p>
+                </div>
+                <div class="div-conversion">
+                  <p class="p-numero-conversion">62%</p>
+                  <p class="p-text-conversion">CONVERSIÓN</p>
+                </div>
+              </div>
+              <div>
+                <a href="https://www.gamarraya.com" target="_blank"><button class="button-details">VER DETALLES</button></a>
+              </div>
+            </div>
+            <div class="col-md-4 button-rigth-portafolio">
+              <img src="/assets/imagenes/iconos/RightPortafolio.png" alt="">
+            </div>
+          </div>
+
+
+          <div class="col-md-2 div-img-app2">
+            <img src="/assets/imagenes/home/app2.png" alt="">
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="div-casos-exito-button">
+          <div class="col-md-6 flex-casos-exito">
+            <p class="p-text-exitos">VER TODOS LOS CASOS DE ÉXITO</p>
+            <span class="img-icon-exitos"><img src="/assets/imagenes/iconos/IconExitos.svg" alt=""></span>
+          </div>
+        </div>
+      </div>
+      <div class="div-nuestro-equipo">
+        <p class="p-nuestro-equipo">NUESTRO EQUIPO</p>
+        <div class="div-equipos">
+          <div class="row m-0" style="max-width: 1583px;">
+            <div class="order-2 order-sm-6  col-6 col-md-3 p-0">
+              <img src="https://www.freejpg.com.ar/asset/900/07/0798/F100012088.jpg" alt="">
+            </div>
+            <div class="order-1 order-sm-6  col-6 col-md-3 p-0">
+              <div class="div-texto-equipo">
+                <p class="p-nombre-equipo">Lorem impum</p>
+                <p class="p-area-equipo">PUBLICISTA</p>
+                <p style="font-size: 20px; " class="p-contenido-area">“Me fascina el mundo digital, las publicidad y el marketing enfocados en el
+                  desarrollo de brandloves”</p>
+              </div>
+            </div>
+            <div class="order-3 order-sm-6  col-6 col-md-3 p-0">
+              <img src="https://www.freejpg.com.ar/asset/900/07/0798/F100012088.jpg" alt="">
+            </div>
+            <div class="order-4 order-sm-6  col-6 col-md-3 p-0">
+              <div class="div-texto-equipo">
+                <p class="p-nombre-equipo">Lorem impum</p>
+                <p class="p-area-equipo">PUBLICISTA</p>
+                <p style="font-size: 20px; " class="p-contenido-area">“Me fascina el mundo digital, las publicidad y el marketing enfocados en el
+                  desarrollo de brandloves”</p>
+              </div>
+            </div>
+            <div class=" order-5 order-sm-6  col-6 col-md-3 p-0">
+              <div class="div-texto-equipo">
+                <p class="p-nombre-equipo">Lorem impum</p>
+                <p class="p-area-equipo">PUBLICISTA</p>
+                <p style="font-size: 20px; " class="p-contenido-area">“Me fascina el mundo digital, las publicidad y el marketing enfocados en el
+                  desarrollo de brandloves”</p>
+              </div>
+            </div>
+            <div class=" order-6 order-sm-6   col-6 col-md-3 p-0">
+              <img src="https://www.freejpg.com.ar/asset/900/07/0798/F100012088.jpg" alt="">
+            </div>
+            <div class="order-8 order-sm-6  col-6 col-md-3 p-0">
+              <div class="div-texto-equipo">
+                <p class="p-nombre-equipo">Lorem impum</p>
+                <p class="p-area-equipo">PUBLICISTA</p>
+                <p style="font-size: 20px; " class="p-contenido-area">“Me fascina el mundo digital, las publicidad y el marketing enfocados en el
+                  desarrollo de brandloves”</p>
+              </div>
+            </div>
+            <div class="order-7 order-sm-6   col-6 col-md-3 p-0">
+              <img src="https://www.freejpg.com.ar/asset/900/07/0798/F100012088.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section-casos">
+      <div style=" max-width: 1583px;">
+        <img src="/assets/imagenes/home/faces.png" alt="" style="width: 100%;">
+        <div style=" position: absolute;">
+          <img class="img-gerente" src="/assets/imagenes/home/gerente.png" alt="" >
+          <img class="img-comillas" src="/assets/imagenes/home/comillas.svg" alt="" >
+        </div>
+      </div>
+      <div class="container">
+        <div class="div-testimonio">
+          <span><img src="/assets/imagenes/iconos/arrowlefthtestimonio.png" alt=""></span>
+          <p class="p-testimonio">«En nuestro camino a la realización, de nuestro objetivo, en conjunto a ROFAI, obtuvimos el aprendizaje de saber
+            cómo brindar la confianza, no solo a nuestro público, sino también a nosotros mismos.
+            Confianza necesaria para mejorar en ser más organizados y así poder realizar mejor las cosas.</p>
+          <span><img src="/assets/imagenes/iconos/arrowrigthtestimonio.png" alt=""></span>
+        </div>
+        <div>
+          <p class="p-nombre-cliente">Cliente GamarraYA!</p>
+        </div>
+
+
+
+
+      </div>
+
+      <div class="img-empresas">
+        <img src="/assets/imagenes/home/empresas.png" alt="">
+      </div>
+
+    </div>
+
+
+
+    <div class="section-contactanos">
+      <div class="container">
+        <p class="p-estamos">ESTAMOS PARA AYUDARTE!</p>
+        <div class="row">
+          <div class="col-md-4 row dato-empresa">
+            <div class="col-md-2" >
+              <img src="/assets/imagenes/iconos/telefono.svg" alt="">
+            </div>
+            <div class="col-md-10" >
+              <p class="div-numeros">+51 946 287 375</p>
+              <p  class="div-numeros">+51 962 533 025</p>
+            </div>
+            <div class="col-md-2">
+              <img src="/assets/imagenes/iconos/ubicacion.svg" alt="">
+            </div>
+            <div class="col-md-10">
+              <p class="p-direccion">San Luis, Lima, Perú</p>
+            </div>
+            <div class="col-md-2">
+              <img src="/assets/imagenes/iconos/correo.svg" alt="">
+            </div>
+            <div class="col-md-10">
+              <p class="p-correo">ventas@rofai.biz</p>
+            </div>
+          </div>
+          <div class="col-md-4 row nombre-email">
+            <div class="col-md-12">
+              <p class="p-nombre">NOMBRE Y APELLIDO</p>
+              <input type="text" placeholder="Nombre" class="input-nombre">
+            </div>
+            <div class="col-md-12">
+              <p class="p-email">EMAIL</p>
+              <input type="text" placeholder="Email" class="input-email">
+            </div>
+          </div>
+          <div class="col-md-4 row mensaje">
+            <div class="col-md-12">
+              <p class="p-mensaje">MENSAJE</p>
+            <textarea name="" id="" cols="50" rows="10" placeholder="Excribenos" class="input-text-area"></textarea>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+         <div class="col-md-12">
+          <div class="div-button">
+            <button>ENVIAR</button>
+          </div>
+         </div>
+        </div>
+       
+
+
+        <div class="row">
+          <div class="div-footer">
+            <div style=" display: flex;">
+              <div style=" width: 80%;" class="img-logo-footer">
+                <img src="/assets/imagenes/rofailogo2.svg" alt="">
+              </div>
+              <div style=" width: 20%;" class="imagenes-footer">
+                <p class="p-siguenos">SIGUENOS</p>
+                <div style=" text-align-last: justify;">
+                  <a target="_blank" href="https://www.facebook.com/rofai.biz/"><img src="/assets/imagenes/iconos/icon-twitter.svg" alt="" style=" filter: invert(1);"></a>
+                  <a target="_blank" href="https://www.facebook.com/rofai.biz/"><img src="/assets/imagenes/iconos/icon-facebook.svg" alt="" style=" filter: invert(1);"></a>
+                  <a target="_blank" href="https://www.instagram.com/consultoriarofai/"><img src="/assets/imagenes/iconos/icon-instagram.svg" alt="" style=" filter: invert(1);"></a>
+                  <a target="_blank" href="https://www.youtube.com/channel/UCR0EUPT6npUelnhu7nHvmQA"><img src="/assets/imagenes/iconos/icon-youtube.svg" alt="" style=" filter: invert(1);"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+
+  <script>
+
+    var scrolled = false;
+    var nav = document.getElementsByClassName('nav-top-float');
+    function myFunction() {
+      console.log(window.scrollY);
+          if (100 < window.scrollY && !scrolled) {
+            nav[0].classList.add("visible");
+            nav[0].animate([{top:"-150px"},{top:0}],{
+              duration:300,
+              easing:'ease-in-out',
+              iterations:1,
+              direction:"alternate",
+              fill:"forwards"
+            })
+              scrolled = true;
+          }
+
+         if (100 > window.scrollY && scrolled) {
+          
+          nav[0].animate([{top:0},{top:"-150px"}],{
+              duration:100,
+              easing:'ease-in-out',
+              iterations:1,
+              direction:"alternate",
+              fill:"forwards"
+            })
+
+            setTimeout(function(){ 
+              nav[0].classList.remove("visible");
+             }, 300);
+              scrolled = false;      
+          }
+    }
+
+    </script>
+
+</body>
+
+</html>
