@@ -481,6 +481,7 @@ ul.slider li {
 
  }
  .capsulas-experiencias:hover{
+     cursor: pointer;
    animation: capsulas_experiencias 0.5s forwards;
  }
  @keyframes capsulas_experiencias{
