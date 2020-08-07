@@ -3,66 +3,11 @@ $base-color: yellow;
 $border-dark: rgba($base-color, 0.88);
 
 
-
-* {
-  font-family: bariol;
-}
-
-   .sidenav {
- height: 100%;
- width: 0;
- position: fixed;
- z-index: 1;
- top: 0;
- left:0;
- background-color: #111;
- overflow-x: hidden;
- transition: 0.5s;
- padding-top: 60px;
-}
-
-.sidenav a {
- padding: 8px 8px 8px 32px;
- text-decoration: none;
- font-size: 1em;
- font-weight: normal;
- color: white;
- display: block;
- transition: 0.3s;
-}
-
-.sidenav a:hover {
- background: #AEF455;
-   color: #002A60;
-   font-weight: bolder;
-   text-align: left;
-  animation: boton 0.5s forwards;
-}
-@keyframes boton{
-  from{}
-  to{padding-left: 50px;}
-}
-
-.sidenav .closebtn {
- position: absolute;
- top: 0;
- right: 25px;
- font-size: 36px;
- margin-left: 50px;
-}
-
-.sidenav .closebtn:hover {
- color: white;
- background: transparent;
-}
-
+  
 /* @media screen and (max-height: 450px) {
  .sidenav {padding-top: 15px;}
  .sidenav a {font-size: 18px;}
 } */
-
-
-
 
 .nav-top-float{
  display: none;
@@ -72,14 +17,9 @@ $border-dark: rgba($base-color, 0.88);
  background-size: 100%;
 }
 
-
-
-
 .visible {
  display: block;
 }
-
-
 
 .animation-fade {
    animation: fadein 4s;
@@ -104,28 +44,18 @@ $border-dark: rgba($base-color, 0.88);
  to { opacity:1; }
 }
 
-.acordeon{
-  // width: 30px;
-position: absolute;
-display: inline-flex;
-margin-top: 20px;
-cursor: pointer;
-
-}
-
 .home{
     .imghome1{
         background-image: url('../../assets/imagenes/home/fondo1.png');
-        //height: 1360px;
         background-size: 100%;
 
         .div-app-bar{
-          position: fixed;width: 100%;
-          background-image: url(../../assets/imagenes/home/fondo1.png);background-size: 100%;
+          position: fixed;
+          width: 100%;
+          background-image: url(../../assets/imagenes/home/fondo1.png);
+          background-size: 100%;
           z-index: 1;
           .container-encabezado{
-              padding-top: 37px;
-              padding-bottom: 37px;
               a{
                 text-decoration: none;
             }
@@ -135,52 +65,24 @@ cursor: pointer;
                 height: 50px;
                 width: 162px;
                 color: #002A60;
-                  background-color: #AEF455;
-                  border-radius: 50px;
-                  border-bottom-color: red;
-                  margin-right: 150px;
-                  font-size: 14px;
-                  letter-spacing: 2px;
-                  font-weight: bold;
+                background-color: #AEF455;
+                border-radius: 50px;
+                right: 50px;
+                font-size: 14px;
+                letter-spacing: 2px;
+                font-weight: bold;
                   
                 }
-                .button-contactenos:hover{
-                  box-shadow: 0px 0px 50px black;
-                }
+               
                 
               }
         }
   
-        .container-encabezado{
-          padding-top: 37px;
-          padding-bottom: 37px;
-          .button-contactenos{
-              outline:none;
-              position: absolute;
-              top:50px;
-              border: 0px;
-              height: 50px;
-              width: 162px;
-              color: #002A60;
-              background-color: #AEF455;
-              right: 150px;
-              border-radius: 50px;
-              border-bottom-color: red;
-              font-size: 14px;
-              letter-spacing: 2px;
-              font-weight: bold;
-          }
-          .button-contactenos:hover{
-            animation: contactanos 0.5s forwards;
-          }
-          @keyframes contactanos {
-            from{}
-            to{box-shadow: 0px 0px 15px black;}
-            to{transform: scale(1.05);}
-            
-          }
+      //   .container-encabezado{
+      //     padding-top: 37px;
+      //     padding-bottom: 37px;
 
-      }
+      // }
       
       .div-container{
         overflow: hidden;
@@ -782,8 +684,7 @@ cursor: pointer;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .home{
-    
+  .home{  
     .imghome1{
       // background-position-x: -160px;
       // background-position-y: 30px;
@@ -807,6 +708,7 @@ cursor: pointer;
             display: none;
           }
         }
+        
       }
       .div-container{
         .div-row{
@@ -939,6 +841,7 @@ cursor: pointer;
           width: 80%;
           margin-left: 10%;
           margin-right: 10%;
+          
           .logo-card{
             margin-top: 10%;
             margin-bottom: 10%;
@@ -1167,7 +1070,7 @@ cursor: pointer;
   .home{
     
     .imghome1{
-      // background-position-x: -160px;
+      
       // background-position-y: 30px;
       // background-size: 200%;
       background-image: url(../../assets/imagenes/home/mobil/fondo1.png);
@@ -1331,6 +1234,7 @@ cursor: pointer;
           box-shadow: 0 0 15px black;
         }
         .card{
+          
           
           height: 40em !important;
           width: 90%;
@@ -1565,19 +1469,7 @@ cursor: pointer;
       //   z-index: 1;
       //   background-image: url(../../assets/imagenes/home/mobil//fondo1.png);
       //   //background-size: 200%;
-      // }
-      .container-encabezado{
-        padding-top: 4%;
-        padding-bottom: 4%;
-        .encabezado{
-          background-size: 100px 30px;
-          background-position-x: center;
-          height: 40px;
-          // .button-contactenos{
-          //   //display: none;
-          // }
-        }
-      }
+      
       .div-container{
         .div-row{
           margin-top: 1%;
@@ -1720,6 +1612,7 @@ cursor: pointer;
           width: 90%;
           margin-left: 5%;
           margin-right: 5%;
+          
           .logo-card{
             margin-top: 10%;
             margin-bottom: 10%;

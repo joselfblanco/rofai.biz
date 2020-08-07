@@ -1,98 +1,60 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rofai</title>
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/home.min.css">
-
-
-  <script>
-    var open = false;
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-      setTimeout(function(){
-        this.open=true;
-      }, 1);
-      
-    }
-    
-    function closeNav() {
-      if(this.open){
-        this.open=false;
-        document.getElementById("mySidenav").style.width = "0";
-      }
-      
-    }
-
-    </script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">  <link rel="stylesheet" href="assets/css/home.min.css">
+  <link rel="stylesheet" href="/assets/css/home.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-
 </head>
-
 <body onscroll="myFunction()" id="myDIV" onclick="closeNav()">
-
-
   <div id="mySidenav" class="sidenav text-capitalize" style="z-index: 17;">
     <a style="color: #AEF455;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <a href="#">home</a>
-    <a href="public\aplicaciones.html">desarrollo web </a>
-    <a href="public\aplicaciones.html">desarrollo de app</a>
-    <a href="public\aplicaciones.html">desarrollo de aplicaciones web</a>
-    <a href="public\aplicaciones.html">desarrollo de ecomerce</a>
-    <a href="public\aplicaciones.html">Marketing digital</a>
-    <a href="public\aplicaciones.html">Chatbot</a>
-    <a href="public\aplicaciones.html">capacitacion sap</a>
-    <a href="public\aplicaciones.html">contacto</a>
-    <a href="public/nosotros.html">nosotros</a>
-    <a href="public/contacto.html">contacto</a>
+    <a href="/public/desarrollo_web.html">desarrollo web </a>
+    <a href="/public/aplicaciones.html">desarrollo de app</a>
+    <a href="#">desarrollo de aplicaciones web</a>
+    <a href="#">desarrollo de ecomerce</a>
+    <a href="#">Marketing digital</a>
+    <a href="#">Chatbot</a>
+    <a href="#">capacitacion sap</a>
+    <a href="nosotros.html">nosotros</a>
+    <a href="contacto.html">contacto</a>
   </div>
-
 
   <div class="container-fluid px-0 home">
     <div class="imghome1">
-      
-      
-      
-      <!-- <div class="div-app-bar">
-        <div class="container container-encabezado">
-          <div class="encabezado">
-            <button class="button-contactenos">CONTACTENOS</button>
-            <img src="assets/imagenes/iconos/iconomenu.svg" alt="">
-          </div>
-        </div>
-      </div> -->
-      <div>
-        
-        <div class="container-fluid container-nav nav-top-float"  >
-          <div class="col-md-12">
-            <div class="container container-encabezado">
-              <img class="acordeon" src="assets/imagenes/iconos/iconomenu.svg" alt="" onclick="openNav()">
-              <div class="encabezado">
-                <a href="contacto.html#contactenos">
-                  <button class="button-contactenos" >CONTÁCTENOS</button>
-                </a>
+        <div class="container-fluid container-nav nav-top-float div-app-bar"  >
+          <div class=" container">
+            <div class="col-md-12">
+              <div class="container container-encabezado">
+                <img class="acordeon" src="assets/imagenes/iconos/iconomenu.svg" alt="" onclick="openNav()">
+                <div class="encabezado">                 
+                    <button style="outline: none;" class="text-uppercase button-contactenos" data-target="#contactenos" data-toggle="modal"  >
+                      Contáctenos
+                    </button> 
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="container-fluid container-nav">
-          <div class="col-md-12">
-            <div class="container container-encabezado">
-              <img class="acordeon" src="assets/imagenes/iconos/iconomenu.svg" alt="" onclick="openNav()">
-              <div class="encabezado">
-                <a href="contacto.html#contactenos">
-                  <button class="button-contactenos" >CONTÁCTENOS</button>
-                </a>
+        <div class="container-fluid container-nav ">
+          <div class=" container">
+            <div class="col-md-12">
+              <div class="container container-encabezado">
+                <img class="acordeon" src="assets/imagenes/iconos/iconomenu.svg" alt="" onclick="openNav()">
+                <div class="encabezado">
+                    <button style="outline: none;" class="button-contactenos"  data-target="#contactenos" data-toggle="modal"  >CONTÁCTENOS</button>   
+                </div>
               </div>
             </div>
           </div>
         </div>
-  <div class=" container">
         <div class="container-fluid div-container">
+          <div class=" container">
           <div class="row div-row">
 
             <div class="col-md-5 section-text-header">
@@ -178,10 +140,6 @@
             </div>
           </div>
         </div>
-
-
-      </div>
-
     </div>
 
     <div class="imghome2">
@@ -378,8 +336,7 @@
               </div>
             </div>
 
-            <div class="container card-scroll card1"  >
-
+            <div class="container card-scroll "  >
 
               <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -574,7 +531,7 @@
         <div class="row section-apps">
           <div class="col-md-5">
             <img src="/assets/imagenes/home/app1.png" alt="" class="img-app1">
-            <span><img src="/assets/imagenes/iconos/RightArrow.svg" alt="" class="rigth-icon-app" style="display: none;"></span>
+            <a><img src="/assets/imagenes/iconos/RightArrow.svg" alt="" class="rigth-icon-app" style="display: none;"></a>
           </div>
           <div class="col-md-5 div-text-apps">
             <div class="col-md-8 div-text-cliente">
@@ -603,13 +560,9 @@
               <img src="/assets/imagenes/iconos/RightPortafolio.png" alt="">
             </div>
           </div>
-
-
           <div class="col-md-2 div-img-app2">
             <img src="/assets/imagenes/home/app2.png" alt="">
           </div>
-
-
         </div>
       </div>
 
@@ -686,8 +639,8 @@
       </div>
       <div class="container">
         <div class="div-testimonio">
-          <span><img src="/assets/imagenes/iconos/arrowlefthtestimonio.png" alt=""></span>
-          <p class="p-testimonio">«En nuestro camino a la realización, de nuestro objetivo, en conjunto a ROFAI, obtuvimos el aprendizaje de saber
+          <span  ><img src="/assets/imagenes/iconos/arrowlefthtestimonio.png" alt=""></span>
+          <p style="color: white; text-shadow: 1px 1px 5px black;" class="p-testimonio">«En nuestro camino a la realización, de nuestro objetivo, en conjunto a ROFAI, obtuvimos el aprendizaje de saber
             cómo brindar la confianza, no solo a nuestro público, sino también a nosotros mismos.
             Confianza necesaria para mejorar en ser más organizados y así poder realizar mejor las cosas.</p>
           <span><img src="/assets/imagenes/iconos/arrowrigthtestimonio.png" alt=""></span>
@@ -741,7 +694,7 @@
             </div>
             <div class="col-md-12">
               <p class="p-email">EMAIL</p>
-              <input type="text" placeholder="Email" class="form-control" required type="email">
+              <input type="text" placeholder="Email" class="form-control" required type="email" required>
             </div>
            
           </div>
@@ -761,9 +714,6 @@
           </div>
          </div>
         </div>
-       
-
-
         <div class="row">
           <div class="div-footer">
             <div style=" display: flex;">
@@ -784,50 +734,79 @@
         </div>
       </div>
     </div>
+  
   </div>
-  </div>
+  <div id="contactenos" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content formulario">
+        <div  class="modal-header text-center">
+          <img src="/assets/imagenes/rofailogo2.svg" alt="">
+          <button class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class=" container">
+            <div class="row justify-content-center">
+              <div class="col-sm-6 text-center">
+                <a href="https://api.whatsapp.com/send?phone=51946287375"><img class="iconos" style="margin-bottom: 10px;width: 20px;" src="/assets/imagenes/iconos/telefono.svg" alt=""></a>
+                <p style="line-height: 2px;"> <strong>+51 946 287 375</strong></p>
+                <p style="line-height: 2px;"> <strong>+51 962 533 025</strong></p>
+              </div>
+              <div class="col-sm-6 text-center">
+                <a href="/public/contacto.html"><img style="margin-bottom: 5px;width: 25px;" class="iconos" src="/assets/imagenes/iconos/ubicacion.svg" alt=""></a>
+                <p style="line-height: 15px;"><strong>San Luis, Lima, Perú</strong></p>              </div>
+              <div class="col-sm-12 text-center ">
+                <img style="width: 30px" src="/assets/imagenes/iconos/correo.svg" alt="">
+                <h3 style="font-family: rezland; color:#002a60" class="text-center"><strong>@mail</strong></h3>
+              </div>              
+            </div>
+            <div class="col-sm-12 row text-left">
+              <div class="col-md-12">
+                <small class=" text-uppercase"><strong>Nombre y apellido</strong></small>
+                <input type="text" placeholder="Nombre y Apellido" class="form-control" required>
+              </div>
+              <div class="col-sm-12">
+                <small class=" text-uppercase"><strong>Email</strong></small>
+                <input type="text" placeholder="Email" class="form-control" required type="email">
+              </div>
+             
+            </div>
+            <div class="col-sm-12 row text-left">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <small class=" text-uppercase"><strong>Mensaje</strong></small>
+                  <textarea id="my-textarea" placeholder="Escribenos" class="form-control" name="" rows="6"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+           <div class="col-sm-12 text-center ">
+              <a class=" btn-enviar">ENVIAR</a>
+           </div>
+          </div>
+          </div>
+          <table>
 
-  <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+
+          </table>
+        </div>
+        <div class="modal-footer">
+          Footer
+        </div>
+      </div>
+    </div>
+  </div>
+  <audio src="/assets/audio/Grabación (7).m4a" autoplay hidden preload="auto"></audio>
+  <script src="/assets/js/anime.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
   <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/app.js"></script>
+  
 
-  <script>
-
-    var scrolled = false;
-    var nav = document.getElementsByClassName('nav-top-float');
-    function myFunction() {
-      console.log(window.scrollY);
-          if (100 < window.scrollY && !scrolled) {
-            nav[0].classList.add("visible");
-            nav[0].animate([{top:"-150px"},{top:0}],{
-              duration:300,
-              easing:'ease-in-out',
-              iterations:1,
-              direction:"alternate",
-              fill:"forwards"
-            })
-              scrolled = true;
-          }
-
-         if (100 > window.scrollY && scrolled) {
-          
-          nav[0].animate([{top:0},{top:"-150px"}],{
-              duration:100,
-              easing:'ease-in-out',
-              iterations:1,
-              direction:"alternate",
-              fill:"forwards"
-            })
-
-            setTimeout(function(){ 
-              nav[0].classList.remove("visible");
-             }, 300);
-              scrolled = false;      
-          }
-    }
-
-    </script>
 
 </body>
-
 </html>

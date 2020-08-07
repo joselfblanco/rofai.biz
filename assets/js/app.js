@@ -1,9 +1,64 @@
+    // funcines de la barra lateral
+    var open = false;
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      setTimeout(function(){
+        this.open=true;
+      }, 1);
+
+    }
+    
+    function closeNav() {
+      if(this.open){
+        this.open=false;
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    }
+
+    
+    // funciones la barra de navegacion superior
+    var scrolled = false;
+    var nav = document.getElementsByClassName('nav-top-float');
+    function myFunction() {
+      console.log(window.scrollY);
+          if (100 < window.scrollY && !scrolled) {
+            nav[0].classList.add("visible");
+            nav[0].animate([{top:"-150px"},{top:0}],{
+              duration:300,
+              easing:'ease-in-out',
+              iterations:1,
+              direction:"alternate",
+              fill:"forwards"
+            })
+              scrolled = true;
+          }
+
+         if (100 > window.scrollY && scrolled) {
+          
+          nav[0].animate([{top:0},{top:"-150px"}],{
+              duration:100,
+              easing:'ease-in-out',
+              iterations:1,
+              direction:"alternate",
+              fill:"forwards"
+            })
+            setTimeout(function(){ 
+              nav[0].classList.remove("visible");
+             }, 300);
+              scrolled = false;      
+          }
+    }
+    
+
+// aqui la funcion del carrusel con botones de seleccion.
+
+
 document.getElementById("slide2").style.display="none";
 document.getElementById("slide3").style.display="none";
 document.getElementById("slide4").style.display="none";
 document.getElementById("slide1").style.display="inline";
 
-var myVar = setInterval(myTimer, 10000);
+var myVar = setInterval(myTimer, 1000);
 
 
 var scrolled = false;
@@ -77,19 +132,6 @@ document.getElementById("label"+(position==4?1:position+1)).classList.add("texto
 }
 
 
-
-//         document.addEventListener('swiped-left', function(e) {
-//             console.log(e.target); // the element that was swiped
-//         });
-
-//         document.addEventListener('swiped-right', function(e) {
-//             console.log(e.target); // the element that was swiped
-//         });
-
-//         document.addEventListener('swiped-down', function(e) {
-//     console.log(e.target); // the element that was swiped
-// });
-
 var elementoTouch= document.getElementById("pestanias");
 
 elementoTouch.addEventListener('touchstart', function(event){
@@ -134,3 +176,14 @@ document.getElementById("label"+(position==1?4:position==4?3:position-1)).classL
 }
 
 }, false);
+
+// animacion desarrollo web
+
+$(".titulo").hover(function(){
+  alert("#") 
+  // anime({
+    //   color:blue,
+    //   duration:5000
+    // });
+});
+
