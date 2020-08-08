@@ -1,5 +1,29 @@
-@import 'constantes';
-
+@font-face {
+    font-family: bariol;
+    src: url(../../assets/fonts/bariol_bold-webfont.ttf);
+    font-weight: bold;
+ }
+ @font-face {
+    font-family: bariol;
+    src: url(../../assets/fonts/bariol_regular-webfont.ttf);
+    font-weight: normal;
+ }
+ @font-face {
+    font-family: bariol;
+    src: url(../../assets/fonts/bariol_light-webfont.ttf);
+    font-weight: lighter;
+ }
+ @font-face {
+    font-family: bariol;
+    src: url(../../assets/fonts/bariol_thin-webfont.ttf);
+    font-weight: initial;
+ }
+ 
+ 
+ * {
+    font-family: bariol;
+ }
+ 
 .sidenav {
    height: 100%;
    width: 0;
