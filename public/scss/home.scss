@@ -31,7 +31,7 @@
 }
 
 .encabezado{
-  background-image: url('../public/imagenes/rofailogo.svg');
+  background-image: url('/public/imagenes/rofailogo.svg');
   background-size: 216px 60px;
   background-repeat: no-repeat;
   height: 60px;
@@ -81,19 +81,12 @@
     .imghome1{
         background-image: url('/public/imagenes/home/fondo1.png');
         background-size: 100%;
-        
-        .div-app-bar{
-          position: fixed;
-          width: 100%;
-          background-image: url('/public/imagenes/home/fondo1.png');
-          background-size: 100%;
-          z-index: 1;
           .container-encabezado{
               a{
                 text-decoration: none;
               }
             }
-        }
+        
   
       //   .container-encabezado{
       //     padding-top: 37px;
@@ -684,10 +677,9 @@
 @media only screen and (max-width: 767px) {
   
   .home{  
+  
+    
     .imghome1{
-      .div-app-bar{
-        width: 100%;
-      }
       
       background-image: url('/public/imagenes/home/mobil/fondo1.png');
       
@@ -695,7 +687,7 @@
         padding-top: 4%;
         padding-bottom: 4%;
         .encabezado{
-          background-size: 100px 30px;
+          background-size: 100px;
           background-position-x: center;
           height: 40px;
           .button-contactenos{
@@ -1092,6 +1084,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  
   .p-exitos{
     color:white;
     font-weight: 800;
@@ -1125,9 +1118,7 @@
   to{box-shadow: 0px 0px 15px black;}
   to{transform: scale(1.05);}
  }
- .div-app-bar{
-  padding-top: 10px; 
-  height: 80px;
+//  
   .button-contactenos{
     font-family: Arial, Helvetica, sans-serif;
     outline:none;
@@ -1154,7 +1145,7 @@
   to{box-shadow: 0px 0px 15px black;}
   to{transform: scale(1.05);}
  }
- }
+ 
   .home{
     .imghome1{
       // background-position-x: -160px;
@@ -1543,7 +1534,11 @@
     margin-top: -100px;
   }
 
-  .section-contactanos{}
+  .section-contactanos{
+    .estamos_para{
+      text-align: center;
+    }
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1579,9 +1574,9 @@
   to{transform: scale(1.05);}
  }
  .div-app-bar{
-  padding: 0;
-  margin-top: -20px;
-  height: 110px;
+  // padding: 0;
+  // margin-top: -20px;
+  // height: 110px;
   .button-contactenos{
     font-family: Arial, Helvetica, sans-serif;
     outline:none;
