@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 </head>
 <body onscroll="myFunction()" id="myDIV" onclick="closeNav()">
-  <div id="mySidenav" class="sidenav text-capitalize" style="z-index: 17;">
+  <div id="mySidenav" class="sidenav text-capitalize" style="z-index: 750;">
     <a style="color: #AEF455;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <a href="#">home</a>
     <a href="../public/desarrollo_web.html">desarrollo web </a>
@@ -57,7 +57,7 @@
           <div class=" container">
           <div class="row div-row">
 
-            <div class="col-md-5 section-text-header">
+            <div class="col-md-5 row section-text-header">
               <div class="sub-section-text-header">
                 <p class="p-texto-entretenimiento animation-fade animate__animated animate__bounce">tu emprendimiento</p>
 
@@ -120,7 +120,6 @@
 
           </div>
         </div>
-
         <div class="container ">
           <div class="row seccion-hacemos">
             <div class="col-md-11">
@@ -137,7 +136,6 @@
               <span><a target="_blank" href="https://www.instagram.com/consultoriarofai/"><img src="../public/imagenes/iconos/icon-instagram.svg" alt=""></a></span>
               <span><a target="_blank" href="https://www.youtube.com/channel/UCR0EUPT6npUelnhu7nHvmQA"><img src="../public/imagenes/iconos/icon-youtube.svg" alt=""></a></span>
             </div>
-
             <div class="row col-md-12 div-numero-clientes">
               <div class="col-md-5 col-sm-6 color-div-clientes">
                 <p class="p-numero-clientes">160+</p>
@@ -152,368 +150,782 @@
         </div>
     </div>
     </div>
-    <div class="imghome2">
+    <div class="imghome2 container-fluid">
       <div class="backgroundimagelosmejores">
         <div class="backgroundimageelipseleft">
           <div class="backgroundimageelipserigth">
-
             <div class="container">
-              <div class="mejores">
-                <div></div>
-                <p class="p-text-somos">SOMOS</p>
-                <p class="p-text-mejores">LOS MEJORES EN</p>
-              </div>
-            </div>
-
-
-            <div class="container card-scroll card2" style="display: none;" >
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span>
-                      <img src="../public/imagenes/iconos/LeftArrow.svg" alt="">
-                    </span>
+              <div class=" row justify-content-center">
+                <div class=" col-sm-12 mb-5">
+                  <div class="mejores">
+                    <div></div>
+                    <p class="p-text-somos">SOMOS</p>
+                    <p class="p-text-mejores">LOS MEJORES EN</p>
+                  </div>
+                </div>
+                <div class=" col-lg-12 mt-4 mb-5">
+                                        <!--  <div class="container "  >
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                      <ol class="carousel-indicators">
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                          <span>
+                                            <img src="../public/imagenes/iconos/LeftArrow.svg" alt="">
+                                          </span>
+                                        </a>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                          <span >
+                                            <img src="../public/imagenes/iconos/RightArrow.svg" alt="">
+                                          </span>
+                                        </a>
+                                      </ol>
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <div class="row">
+                                            <div class="col-md-12">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                          <div class="row">
+                                            <div class="col-md-12">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/computadora.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title nombre-curso">DESARROLLO WEB</div>
+                                                  <p class="card-text texto-curso">Has que tu negocio tenga una imagen particular y única. Nosotros desarrollamos el logo y la página web de tu negocio.</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                          <div class="row">
+                                            <div class="col-md-12">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">MARKETING</div>
+                                                  <p class="card-text texto-curso">Logra estar presente en las redes sociales y en los motores
+                                                    de búsqueda. Nosotros te ayudamos!</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                          <div class="row">
+                                            <div class="col-md-12">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">INTELIGENCIA ARTIFICIAL</div>
+                                                  <p class="card-text texto-curso">Convierte tus visitas en contacto atendiendo 24x7. Desarrollamos tu chatbot para que puedas hacerlo realidad!</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                          <div class="row">
+                                            <div class="col-md-12">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">CURSOS SAP</div>
+                                                  <p class="card-text texto-curso">¡Aprende ERP SAP desde cero hasta obtener un alto perfil profesional con nuestros cursos modulares. Recibe una alta especialización con los mejores instructores SAP!</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                          <div class="row">
+                                            <div class="col-md-12">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">SISTEMA DE VENTAS</div>
+                                                  <p class="card-text texto-curso">¡Si tienes un control de ventas adecuado, el trabajo se facilita y la labor de ventas se hace más fácil, lo cual puede dar como resultado clientes satisfechos!</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item ">
+                                          <div class="row">
+                                            <div class="col-md-12">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">TIENDAS VIRTUALES</div>
+                                                  <p class="card-text texto-curso">Vende las 24 horas, desde cualquier parte del mundo. Creamos y desarrollamos tu tienda virtual hecho a medida, además te asesoramos en base a todo nuestro conocimiento y experiencia en proyectos de Comercio Electrónico</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>        
+                                      </div>
+                                    </div>
+                                  </div>
+                                   <div class="container card-scroll "  >
+                                    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                      <ol class="carousel-indicators">
+                                        <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                          <span>
+                                            <img src="../public/imagenes/iconos/LeftArrow.svg" alt="">
+                                          </span>
+                                        </a>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                        <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                          <span>
+                                            <img src="../public/imagenes/iconos/RightArrow.svg" alt="">
+                                          </span>
+                                        </a>
+                                      </ol>
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <div class="row">
+                                            <div class="col-md-4">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/computadora.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">DESARROLLO WEB</div>
+                                                  <p class="card-text texto-curso">Has que tu negocio tenga una imagen particular y única. Nosotros desarrollamos el logo y la página web de tu negocio.</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">MARKETING</div>
+                                                  <p class="card-text texto-curso">Logra estar presente en las redes sociales y en los motores de búsqueda. Nosotros te ayudamos!</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                          <div class="row">
+                                            <div class="col-md-4">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">INTELIGENCIA ARTIFICIAL</div>
+                                                  <p class="card-text texto-curso">Convierte tus visitas en contacto atendiendo 24x7. Desarrollamos tu chatbot para que puedas hacerlo realidad!</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/computadora.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">CURSOS SAP</div>
+                                                  <p class="card-text texto-curso">¡Aprende ERP SAP desde cero hasta obtener un alto perfil profesional con nuestros cursos modulares. Recibe una alta especialización con los mejores instructores SAP!</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">SISTEMA DE VENTAS</div>
+                                                  <p class="card-text texto-curso">¡Si tienes un control de ventas adecuado, el trabajo se facilita y la labor de ventas se hace más fácil, lo cual puede dar como resultado clientes satisfechos!</p>
+                                                </div>
+                                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                  <button class="ver-mas-card">VER MÁS</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                          <div class="row">
+                                            <div class="col-md-4">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <div class="card-title logo-card">
+                                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                                  </div>
+                                                  <div class="card-title div-guion">
+                                                    <div class="dibujo-guion"></div>
+                                                  </div>
+                                                  <div class="card-title nombre-curso">TIENDAS VIRTUALES</div>
+                                                  <p class="card-text texto-curso">Vende las 24 horas, desde cualquier parte del mundo. Creamos y desarrollamos tu tienda virtual hecho a medida, además te asesoramos en base a todo nuestro conocimiento y experiencia en proyectos de Comercio Electrónico</p>
+                                                </div>
+                                                  <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                                    <button class="ver-mas-card">VER MÁS</button>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div> -->
+                 
+                <div id="mi-carousel-maximo" class="carousel slide maximo" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li class="active" data-target="#my-carousel" data-slide-to="0" aria-current="location"></li>
+                    <li data-target="#my-carousel" data-slide-to="1"></li>
+                    <li data-target="#my-carousel" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card tarjeta">
+                              <div class="card-body">
+                                <div class="card-title logo-card">
+                                  <img src="../public/imagenes/iconos/computadora.svg" alt="">
+                                </div>
+                                <div class="card-title nombre-curso">DESARROLLO WEB</div>
+                                <p class="card-text texto-curso">Has que tu negocio tenga una imagen particular y única. Nosotros desarrollamos el logo y la página web de tu negocio.</p>
+                              </div>
+                              <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                <button class="ver-mas-card">VER MÁS</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card tarjeta">
+                              <div class="card-body">
+                                <div class="card-title logo-card">
+                                  <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                </div>
+                                <div class="card-title div-guion">
+                                  <div class="dibujo-guion"></div>
+                                </div>
+                                <div class="card-title nombre-curso">MARKETING</div>
+                                <p class="card-text texto-curso">Logra estar presente en las redes sociales y en los motores de búsqueda. Nosotros te ayudamos!</p>
+                              </div>
+                              <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                <button class="ver-mas-card">VER MÁS</button>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                    <div class="carousel-item pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">INTELIGENCIA ARTIFICIAL</div>
+                                  <p class="card-text texto-curso">Convierte tus visitas en contacto atendiendo 24x7. Desarrollamos tu chatbot para que puedas hacerlo realidad!</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card tarjeta">
+                              <div class="card-body">
+                                <div class="card-title logo-card">
+                                  <img src="../public/imagenes/iconos/computadora.svg" alt="">
+                                </div>
+                                <div class="card-title div-guion">
+                                  <div class="dibujo-guion"></div>
+                                </div>
+                                <div class="card-title nombre-curso">CURSOS SAP</div>
+                                <p class="card-text texto-curso">¡Aprende ERP SAP desde cero hasta obtener un alto perfil profesional con nuestros cursos modulares. Recibe una alta especialización con los mejores instructores SAP!</p>
+                              </div>
+                              <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                <button class="ver-mas-card">VER MÁS</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card tarjeta">
+                              <div class="card-body">
+                                <div class="card-title logo-card">
+                                  <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                </div>
+                                <div class="card-title div-guion">
+                                  <div class="dibujo-guion"></div>
+                                </div>
+                                <div class="card-title nombre-curso">SISTEMA DE VENTAS</div>
+                                <p class="card-text texto-curso">¡Si tienes un control de ventas adecuado, el trabajo se facilita y la labor de ventas se hace más fácil, lo cual puede dar como resultado clientes satisfechos!</p>
+                              </div>
+                              <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                <button class="ver-mas-card">VER MÁS</button>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="carousel-item pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/cursosap.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">TIENDAS VIRTUALES</div>
+                                  <p class="card-text texto-curso">Vende las 24 horas, desde cualquier parte del mundo. Creamos y desarrollamos tu tienda virtual hecho a medida, además te asesoramos en base a todo nuestro conocimiento y experiencia en proyectos de Comercio Electrónico</p>
+                                </div>
+                                  <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                    <button class="ver-mas-card">VER MÁS</button>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card tarjeta">
+                              <div class="card-body">
+                                <div class="card-title logo-card">
+                                  <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                </div>
+                                <div class="card-title div-guion">
+                                  <div class="dibujo-guion"></div>
+                                </div>
+                                <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                              </div>
+                              <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                <button class="ver-mas-card">VER MÁS</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="card tarjeta">
+                              <div class="card-body">
+                                <div class="card-title logo-card">
+                                  <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                </div>
+                                <div class="card-title div-guion">
+                                  <div class="dibujo-guion"></div>
+                                </div>
+                                <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                              </div>
+                              <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                <button class="ver-mas-card">VER MÁS</button>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev " href="#mi-carousel-maximo" data-slide="prev" role="button">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
                   </a>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span >
-                      <img src="../public/imagenes/iconos/RightArrow.svg" alt="">
-                    </span>
+                  <a class="carousel-control-next " href="#mi-carousel-maximo" data-slide="next" role="button">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
                   </a>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/phone.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
-                            <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
+                </div>
+                <div id="mi-carousel-minimo" class="carousel slide minimo" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li class="active" data-target="#my-carousel" data-slide-to="0" aria-current="location"></li>
+                    <li data-target="#my-carousel" data-slide-to="1"></li>
+                    <li data-target="#my-carousel" data-slide-to="2"></li>
+                    <li data-target="#my-carousel" data-slide-to="3"></li>
+                    <li data-target="#my-carousel" data-slide-to="4"></li>
+                    <li data-target="#my-carousel" data-slide-to="5"></li>
+                    <li data-target="#my-carousel" data-slide-to="6"></li>
+                    <li data-target="#my-carousel" data-slide-to="7"></li>
+                    <li data-target="#my-carousel" data-slide-to="8"></li>
+                  </ol>
+                  <div class="carousel-inner">                    
+                    <div class="carousel-item active pt-5 pb-4">
+                      <div class="container-lg">
+                        <div class="row justify-content-center">
+                          <div class=" col-sm-4">
+                          <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">s DE APPS</div>
+                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
                           </div>
                         </div>
-                      </div>
+                          </div>
+                        </div>
                     </div>
-
+                    <div class="carousel-item pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row justify-content-center ">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row justify-content-center ">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row justify-content-center ">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row justify-content-center ">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row justify-content-center ">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row justify-content-center ">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row justify-content-center ">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  pt-5 pb-4">
+                      <div class=" container-lg">
+                        <div class="row justify-content-center ">
+                          <div class="col-sm-4">
+                            <div class="col-sm-12">
+                              <div class="card tarjeta">
+                                <div class="card-body">
+                                  <div class="card-title logo-card">
+                                    <img src="../public/imagenes/iconos/phone.svg" alt="">
+                                  </div>
+                                  <div class="card-title div-guion">
+                                    <div class="dibujo-guion"></div>
+                                  </div>
+                                  <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
+                                  <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
+                                </div>
+                                <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
+                                  <button class="ver-mas-card">VER MÁS</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
                   </div>
-
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/computadora.svg" alt="">
-                            </div>
-                            <div class="card-title nombre-curso">DESARROLLO WEB</div>
-                            <p class="card-text texto-curso">Has que tu negocio tenga una imagen particular y única. Nosotros desarrollamos el logo y la página web de tu negocio.</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/cursosap.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">MARKETING</div>
-                            <p class="card-text texto-curso">Logra estar presente en las redes sociales y en los motores
-                              de búsqueda. Nosotros te ayudamos!</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-
-                    <div class="row">
-
-                      <div class="col-md-12">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/cursosap.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">INTELIGENCIA ARTIFICIAL</div>
-                            <p class="card-text texto-curso">Convierte tus visitas en contacto atendiendo 24x7. Desarrollamos tu chatbot para que puedas hacerlo realidad!</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="carousel-item ">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/cursosap.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">CURSOS SAP</div>
-                            <p class="card-text texto-curso">¡Aprende ERP SAP desde cero hasta obtener un alto perfil profesional con nuestros cursos modulares. Recibe una alta especialización con los mejores instructores SAP!</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="carousel-item ">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/cursosap.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">SISTEMA DE VENTAS</div>
-                            <p class="card-text texto-curso">¡Si tienes un control de ventas adecuado, el trabajo se facilita y la labor de ventas se hace más fácil, lo cual puede dar como resultado clientes satisfechos!</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="carousel-item ">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/cursosap.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">TIENDAS VIRTUALES</div>
-                            <p class="card-text texto-curso">Vende las 24 horas, desde cualquier parte del mundo. Creamos y desarrollamos tu tienda virtual hecho a medida, además te asesoramos en base a todo nuestro conocimiento y experiencia en proyectos de Comercio Electrónico</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>        
+                  <a class="carousel-control-prev " href="#mi-carousel-minimo" data-slide="prev" role="button">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                  </a>
+                  <a class="carousel-control-next " href="#mi-carousel-minimo" data-slide="next" role="button">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                  </a>
+                </div>
+                
                 </div>
               </div>
-            </div>
-
-            <div class="container card-scroll "  >
-
-              <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
-                    <span>
-                      <img src="../public/imagenes/iconos/LeftArrow.svg" alt="">
-                    </span>
-                  </a>
-
-                  <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
-
-                  <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
-                    <span>
-                      <img src="../public/imagenes/iconos/RightArrow.svg" alt="">
-                    </span>
-                  </a>
-
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/phone.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">DESARROLLO DE APPS</div>
-                            <p class="card-text texto-curso">Recibimos tu requerimiento y trabajamos el diseño de la solución con nuestro equipo especializado de programadores y arquitectos, basándonos en nuestra metodología ágil de desarrollo de software.</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/computadora.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">DESARROLLO WEB</div>
-                            <p class="card-text texto-curso">Has que tu negocio tenga una imagen particular y única. Nosotros desarrollamos el logo y la página web de tu negocio.</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/cursosap.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">MARKETING</div>
-                            <p class="card-text texto-curso">Logra estar presente en las redes sociales y en los motores de búsqueda. Nosotros te ayudamos!</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-                      
-
-                    </div>
-
-                  </div>
-                  <div class="carousel-item">
-
-                    <div class="row">
-
-                      <div class="col-md-4">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/cursosap.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">INTELIGENCIA ARTIFICIAL</div>
-                            <p class="card-text texto-curso">Convierte tus visitas en contacto atendiendo 24x7. Desarrollamos tu chatbot para que puedas hacerlo realidad!</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/computadora.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">CURSOS SAP</div>
-                            <p class="card-text texto-curso">¡Aprende ERP SAP desde cero hasta obtener un alto perfil profesional con nuestros cursos modulares. Recibe una alta especialización con los mejores instructores SAP!</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col-md-4">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/cursosap.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">SISTEMA DE VENTAS</div>
-                            <p class="card-text texto-curso">¡Si tienes un control de ventas adecuado, el trabajo se facilita y la labor de ventas se hace más fácil, lo cual puede dar como resultado clientes satisfechos!</p>
-                          </div>
-                          <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-
-                    <div class="row">
-
-                      <div class="col-md-4">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="card-title logo-card">
-                              <img src="../public/imagenes/iconos/cursosap.svg" alt="">
-                            </div>
-                            <div class="card-title div-guion">
-                              <div class="dibujo-guion"></div>
-                            </div>
-                            <div class="card-title nombre-curso">TIENDAS VIRTUALES</div>
-                            <p class="card-text texto-curso">Vende las 24 horas, desde cualquier parte del mundo. Creamos y desarrollamos tu tienda virtual hecho a medida, además te asesoramos en base a todo nuestro conocimiento y experiencia en proyectos de Comercio Electrónico</p>
-                          </div>
-                             <div style="position: absolute; bottom: 10px;" class=" col-sm-12">
-                            <button class="ver-mas-card">VER MÁS</button>
-                          </div>
-                        </div>
-                      </div>
-
-
-                    </div>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
+            </div>   
             <div class="container div-portafolio">
               <div class="row">
                 <div class="col-md-11 div-text-portafolio">
@@ -699,7 +1111,6 @@
       </div>
     </div>
     
-
     <div class="section-casos container-fluid ">
       <div class="container">
         <div class="row">
@@ -810,7 +1221,7 @@
     </div>
  
   </div>
-    </div>
+
   <div id="contactenos" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
     <div class="modal-dialog " role="document">
       <div class="modal-content formulario">
@@ -867,9 +1278,9 @@
           Footer
         </div>
       </div>
-    </div>
-    
   </div>
+    
+</div>
   
   <!-- <audio src="../publicaudio/Grabación (7).m4a" autoplay hidden preload="auto"></audio> -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -877,7 +1288,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
   <script src="../public/js/anime.js"></script>
   <script src="../public/js/popper.min.js"></script>
-  <script src="../public/js/app.js"></script>
+  <script src="../public/js/app.js"></script> 
   
   <script>
     
