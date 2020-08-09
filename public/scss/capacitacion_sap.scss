@@ -2,7 +2,7 @@
 @import 'constant_newpage';
 // fondo de pagina completa
 .fondo{
-    background-image: linear-gradient(to bottom,$color_primario, $color_celeste);
+    background-image: linear-gradient(to bottom,$color_negro, $color_primario);
 }
 // estilos del encabezado
 .home{
@@ -53,28 +53,5 @@
     color: white;
     text-shadow: 1px 5px 8px black;
  }
-.capsulas{
-    background-color:$color_celeste;
-    margin: 5px;
-    border-radius: 10px;
-    .capsula-interna{
-        margin-top: 10px;
-        height: 150px;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        background-position-x: center;
-    }
-}
-.capsulas:hover{
-    
-    animation: capsulas 0.5s forwards;
-}
-@keyframes capsulas{
-    from{}
-    to{transform: scale(1.05)}
-    to{box-shadow: 0 0 10px black}
-    to{background-color:$color_primario;}
-    to{color:white}
-}
 
 

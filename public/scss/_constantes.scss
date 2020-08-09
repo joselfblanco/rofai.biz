@@ -96,31 +96,7 @@ $color_gris:#C2C3C9;
    color: white;
    background: transparent;
   }
-  .button-contactenos{
-   font-family: Arial, Helvetica, sans-serif;
-   outline:none;
-   position: absolute;
-   top:50px;
-   height: 45px;
-   width: 162px;
-   color: #002A60;
-   background-color: $color_secundario;
-   right: 80px;
-   border: 0;
-   border-radius: 50px;
-   font-size: 14px;
-   letter-spacing: 1px;
-   font-weight:900;
-}
-.button-contactenos:hover{
-outline: none;
- animation: contactanos 0.5s forwards;
-}
-@keyframes contactanos {
- from{}
- to{box-shadow: 0px 0px 15px black;}
- to{transform: scale(1.05);}
-}
+//   
 
 
 // aqui el formulario de contacto al presionar boton-contactenos
@@ -167,3 +143,11 @@ input::-webkit-input-placeholder {
             to{box-shadow: 0 0 10px black}
          }
 }
+
+// aqui el nav bar superior
+.nav-top-float{
+   position: fixed;
+   z-index: 16;
+   background-size: 100%;
+  }
+  

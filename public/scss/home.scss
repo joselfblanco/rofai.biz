@@ -22,6 +22,7 @@
   font-weight: 900;
 }
 .button-details:hover{
+  outline: none;
   animation: detalles 0.5s forwards;
 }
 @keyframes detalles {
@@ -943,6 +944,7 @@
             margin-bottom: 3%!important;
           }
           .button-details{
+            outline: none;
             margin-right: 0!important;
             margin-top: 5%!important;
             margin-bottom: 6%!important;
@@ -1405,6 +1407,7 @@
             margin-bottom: 3%!important;
           }
           .button-details{
+            outline: none;
             margin-right: 0!important;
             margin-top: 5%!important;
             margin-bottom: 6%!important;
@@ -1606,8 +1609,6 @@
  }
  .div-app-bar{
    z-index: 500;
-  // padding: 0;
-  // margin-top: -20px;
   height: 110px;
   .button-contactenos{
     font-family: Arial, Helvetica, sans-serif;
