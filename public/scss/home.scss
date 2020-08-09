@@ -5,6 +5,7 @@
  .sidenav {padding-top: 15px;}
  .sidenav a {font-size: 18px;}
 } */
+.minimo{display: none;}
 
 .button-details{
   font-family: Arial, Helvetica, sans-serif;
@@ -234,7 +235,8 @@
           }
         }
       }
-      .imghome2{
+
+    .imghome2{
         background-image: url('/public/imagenes/home/fondo2.png');
         //height: 1360px;
         background-size: 100%;
@@ -288,25 +290,45 @@
             }
           }
         }
+        .carousel-indicators{
+          align-items: center;
+          left: -40px;
+          margin-top: 10px;
+          margin-bottom: 60px;
+          a{
+            position: relative;
+          }
+          li{
+            margin-top: -150px;
+            background: $color_celeste;
+            width: 15px;
+            height: 15px;
+            margin: 4px;
+            border-radius: 50%;
+            border: none;
+            opacity: 0.4;
+          }
+          li.active{
+            opacity: 0.8;
+            background: $color_secundario;
+          }
+        }
+        
 
-        .card-scroll{
-          margin-top: 8%;
-          padding-bottom: 15%;
-          .card{
-            width: 100%;
-            height: 100%;
+        .card{
+            width: 250px;
+            height: 400px;
             background-color: transparent;
             border-color: #AEF455;
             color: #AEF455;
             text-align: center;
             border-radius: 10px;
             .logo-card{
-              margin-top: 40px;
-              margin-bottom: 45px;
+              margin-bottom: 15px;
             }
             .div-guion{
               text-align: -webkit-center;
-              margin-bottom: 40px;
+              margin-bottom: 20px;
               .dibujo-guion{
                 height: 3px;
                 background-color: #AEF455;
@@ -315,57 +337,42 @@
               
             }
             .nombre-curso{
-              font-size: 22px;
+              font-size: 18px;
               font-weight: 800;
               margin-bottom: 22px;
             }
             .texto-curso{
-              font-size: 18px;
+              font-size: 14px;
               font-weight: 300;
               // margin-bottom: 43px;
             }
             .ver-mas-card{
               outline: none;
-              display: none;
-              margin: 34px;
+              // display: none;
+              // margin: 0px;
+              text-align: center;
               border: 0px;
               height: 37px;
               width: 150px;
               color: #002A60;
               background-color: #AEF455;
               border-radius: 50px;
-              margin-right: 50px;
+              
               font-size: 14px;
               letter-spacing: 2px;
-              font-weight: bold;
+              font-weight: 900;
             }
-             .card:hover{
-               border-color: #0051BA;
-              //  height: 453px;
-               .logo-card>img{
-                 filter: invert(0.9) sepia(1) saturate(5) hue-rotate(175deg);
-               }
-               .dibujo-guion{
-                 background-color: #0051BA;
-               }
-               .nombre-curso{
-                 color: #0051BA;
-               }
-               .texto-curso{
-                 color: black;
-                 font-weight: 900;
-               }
-               .ver-mas-card{
-                 display: inline;
-               }
-               animation: cartas 1s forwards;
-             }
-            @keyframes cartas {
+            .ver-mas-card:hover{
+              animation:vermas 0.5s forwards;
+            }
+            @keyframes vermas{
               from{}
-              to{background-color: white;}
-              to{color:black}
+              to{box-shadow: 0 0 10px;}
+              to{transform: scale(1.05);}
             }
-          }
+            
+             
+          // }
          
 
 
@@ -373,60 +380,71 @@
           //para que funcione el carrusel
 
 
-          .carousel-indicators{
-            bottom: -150px;
-            align-items: center;
-            a{
-              position: relative;
-            }
-            li{
-              background: #AEF455;
-              width: 10px;
-              height: 10px;
-              margin: 4px;
-              border-radius: 50%;
-              border: none;
-            }
-            li.active{
-              background: #AEF455;
-            }
-          }
+          
 
           .carousel-inner{
-            .card:hover{
-              border-color: #0051BA;
-              .logo-card>img{
-                filter: invert(0.9) sepia(1) saturate(5) hue-rotate(175deg);
-              }
-              .dibujo-guion{
-                background-color: #0051BA;
-              }
-              .nombre-curso{
-                color: #0051BA;
-              }
-              .texto-curso{
-                color: black;
-                font-weight: 900;
-              }
-              .ver-mas-card{
-                display: inline;
-              }
-              animation: cartas 1s forwards;
-            }
-            @keyframes cartas {
-              from{}
-              to{background-color: white;}
-              to{color:black}
+            // .card:hover{
+            //   border-color: #0051BA;
+            //   .logo-card>img{
+            //     filter: invert(0.9) sepia(1) saturate(5) hue-rotate(175deg);
+            //   }
+            //   .dibujo-guion{
+            //     background-color: #0051BA;
+            //   }
+            //   .nombre-curso{
+            //     color: #0051BA;
+            //   }
+            //   .texto-curso{
+            //     color: black;
+            //     font-weight: 900;
+            //   }
+            //   .ver-mas-card{
+            //     display: inline;
+            //   }
+            //   animation: cartas 1s forwards;
+            // }
+            // @keyframes cartas {
+            //   from{}
+            //   to{background-color: white;}
+            //   to{color:black}
              
-            }
+            // }
           }
         //fin para que funcione el carrusel
 
 
 
         }
+        .card:hover{
+          border-color: #0051BA;
+         //  height: 453px;
+          .logo-card>img{
+            filter: invert(0.9) sepia(1) saturate(5) hue-rotate(175deg);
+          }
+          .dibujo-guion{
+            background-color: #0051BA;
+          }
+          .nombre-curso{
+            color: #0051BA;
+          }
+          .texto-curso{
+            color: black;
+            font-weight: 900;
+          }
+          .ver-mas-card{
+            display: inline;
+          }
+          animation: cartas 1s forwards;
+        }
+       @keyframes cartas {
+         from{}
+         to{background-color: white;}
+         to{color:black}
+         to{transform: scale(1.1);}
+       }
       }
-      .imghome3{
+
+    .imghome3{
         background-image: url('/public/imagenes/home/fondo3.png');
         height: 100%;
         background-size: 220%;
@@ -571,8 +589,8 @@
         }
         
       }
-
-      .section-casos{
+      
+    .section-casos{
         padding-top: 150px;
         height: 100%;
        
@@ -605,7 +623,7 @@
         }
       }
 
-      .section-contactanos{
+    .section-contactanos{
         input,textarea,
         input::-webkit-input-placeholder {
         font-size: 14px;
@@ -665,16 +683,25 @@
           }
         }
       }
-
       
-      
-
 }
 
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px) {
+  .maximo{
+    display: none;
+  }
+  .minimo{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    margin-top: -80px;
+    .carousel-item{
+    }
+  }
   
   .home{  
   
@@ -845,12 +872,14 @@
           font-weight: 900;
         }
       }
-      .card2{
-        display: inline!important;
-      }
-      .card-scroll{
+      // .card2{
+      //   display: inline!important;
+      // }
+      // .card-scroll{
         .carousel-indicators{
-          display: none;
+          width: 100%;
+          text-align: center;
+          bottom: -74px;
         }
         // .card{
         //   height: 25em!important;
@@ -879,7 +908,7 @@
         }
       
 
-      }
+      // }
       .div-portafolio{
         .div-text-portafolio{
           margin-left: 0px!important;
@@ -1303,13 +1332,13 @@
         //   font-size: 2em;
         // }
       }
-      .card2{
-        display: none!important;
-      }
-      .card-scroll{
+      // .card2{
+      //   display: none!important;
+      // }
+      // .card-scroll{
         .carousel-indicators{
-          display: none;
-          //bottom: -20%;
+          // display: none;
+          bottom: -20%;
         }
         // .card{
         //   height: 26em !important;
@@ -1338,7 +1367,7 @@
         }
         
 
-      }
+      // }
       .div-portafolio{
         .div-text-portafolio{
           margin-left: 0px!important;
@@ -1530,6 +1559,8 @@
       }
     }
   }
+
+
   .gerente{
     margin-top: -100px;
   }
@@ -1574,6 +1605,7 @@
   to{transform: scale(1.05);}
  }
  .div-app-bar{
+   z-index: 500;
   // padding: 0;
   // margin-top: -20px;
   // height: 110px;
@@ -1755,13 +1787,13 @@
         //   font-size: 2em;
         // }
       }
-      .card2{
-        display: none!important;
-      }
-      .card-scroll{
-        padding-bottom: 8%;
+      // .card2{
+      //   display: none!important;
+      // }
+      // .card-scroll{
+        // padding-bottom: 8%;
         .carousel-indicators{
-          display: flex;
+          // display: flex;
           bottom: -25%;
           //bottom: -20%;
         }
@@ -1792,7 +1824,7 @@
         }
      
 
-      }
+      // }
       .div-portafolio{
         .div-text-portafolio{
           margin-left: 0px!important;
@@ -2181,13 +2213,13 @@
         //   font-size: 4em;
         // }
       }
-      .card2{
-        display: none!important;
-      }
-      .card-scroll{
-        padding-bottom: 8%;
+      // .card2{
+      //   display: none!important;
+      // }
+      // .card-scroll{
+      //   padding-bottom: 8%;
         .carousel-indicators{
-          display: flex;
+          // display: flex;
           bottom: -25%;
           //bottom: -20%;
         }
@@ -2218,7 +2250,8 @@
         }
        
 
-      }
+      // }
+      
       .div-portafolio{
         .div-text-portafolio{
           margin-left: 0px!important;
