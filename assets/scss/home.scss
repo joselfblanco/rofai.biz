@@ -8,6 +8,7 @@
 .minimo{display: none;}
 
 
+
 .button-details{
   font-family: Arial, Helvetica, sans-serif;
   outline: none;
@@ -34,7 +35,7 @@
 }
 
 .encabezado{
-  background-image: url('../../assets/imagenes/rofailogo.svg');
+  // background-image: url('../../assets/imagenes/rofailogo.svg');
   background-size: 216px 60px;
   background-repeat: no-repeat;
   height: 60px;
@@ -1649,7 +1650,6 @@
         padding-top: 37px;
         padding-bottom: 37px;
         .encabezado{
-          background-image: url('../../assets/imagenes/rofailogo.svg');
           background-size: 216px 60px;
           background-repeat: no-repeat;
           height: 60px;

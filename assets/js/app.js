@@ -6,6 +6,21 @@
         this.open=true;
       }, 1);
 
+      
+      anime({
+        targets:'.logo',
+        translateY:[0,-10],
+        direction:"alternate",
+        duration:1000,
+        delay:anime.stagger(100)
+   
+    });
+    // anime({
+    //   targets:'.container-encabezado',
+    //   backgroundColor:'#000',
+    //   duration:1000,
+    //   direction:"alternate"
+    // });
     }
     
     function closeNav() {
@@ -177,13 +192,6 @@ document.getElementById("label"+(position==1?4:position==4?3:position-1)).classL
 
 }, false);
 
-// animacion desarrollo web
+// animacion del logo
 
-$(".titulo").hover(function(){
-  alert("#") 
-  // anime({
-    //   color:blue,
-    //   duration:5000
-    // });
-});
 
