@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rofai-Aplicaciones</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../assets/css/aplicacion.css">
+</head>
+<body onscroll="myFunction()" id="myDIV" onclick="closeNav()">
+  <div id="mySidenav" class="sidenav text-capitalize" style="z-index: 17;">
+    <a style="color: #AEF455;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="../index.html">home</a>
+    <a href="../assets/desarrollo_web.html">desarrollo web </a>
+    <a href="../assets/aplicaciones.html">desarrollo de app</a>
+    <a href="../assets/aplicaciones_web.html">desarrollo de aplicaciones web</a>
+    <a href="../assets/ecomerce.html#">desarrollo de ecomerce</a>
+    <a href="../assets/marketing.html">Marketing digital</a>
+    <a href="../assets/chatbot.html">Chatbot</a>
+    <a href="../assets/capacitacion_sap.html">capacitacion sap</a>
+    <a href="../assets/nosotros.html">nosotros</a>
+    <a href="../assets/contacto.html">contacto</a>
+  </div>
+    
+  <div class="container-fluid container-nav nav-top-float "  >
+    <div class=" container">
+      <div class="col-md-12">
+        <div class="container container-encabezado">
+          <img class="acordeon" src="../assets/imagenes/iconos/iconomenu.svg" alt="" onclick="openNav()">
+          <div class="encabezado">
+            <button style="outline: none;" class="text-uppercase button-contactenos" data-target="#contactenos" data-toggle="modal"  >
+              Contáctenos
+            </button> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid container-nav">
+    <div class=" container">
+      <div class="col-md-12">
+        <div class="container container-encabezado ">
+          <img class="acordeon" src="../assets/imagenes/iconos/iconomenu.svg" alt="" onclick="openNav()">
+          <div class="encabezado">
+            <button style="outline: none;" class="button-contactenos"  data-target="#contactenos" data-toggle="modal"  >CONTÁCTENOS</button>   
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <section class="container-fluid text-center section-dos">
+        <div class="container desarrollo-aplicacion">
+          <h1 class="font-weight-bold text-white mb-0">Desarrollo de Aplicaciones</h1>
+          <h1 class="font-weight-light  color-desarrollo">Lorem ipsum lorem</h1>
+        </div>
+        <div>
+          <div class="slider-button container">
+
+            <label id="label1" class="container-radio texto-seleccionado" onclick="myslider('slide1', 'label1')">
+              <input type="radio" checked="checked" id="radio1" name="radio">
+                <span class="checkmark checkmark1"></span>
+                <p>APP IOS</p>
+              </label>
+
+              <label id="label2"  class="container-radio" onclick="myslider('slide2' , 'label2')">
+              <input type="radio" name="radio" id="radio2" >
+                <span class="checkmark checkmark2"></span>
+                <p>APP ANDROID</p>
+              </label>
+
+              <label id="label3" class="container-radio" onclick="myslider('slide3', 'label3')">
+              <input type="radio" name="radio" id="radio3">
+                <span class="checkmark checkmark3"></span>
+                <p>TESTING APPS</p>
+              </label>
+
+              <label id="label4" class="container-radio" onclick="myslider('slide4', 'label4')">
+                <input type="radio" name="radio" id="radio4">
+                <span class="checkmark checkmark4"></span>
+                <p>APPS NATIVAS</p>
+              </label>
+
+           </div>
+          <div class="container">
+            <ul class="slider" id="pestanias" >
+              <li id="slide1">
+                <div class="row">
+                  <div class="col-md-5 lado-izquierdo">
+                    <p class="text-white">Creamos aplicaciones IOS que generan buenas experiencias y optimizan los procesos dentro de la empresa. Hagamos un equipo y trabajemos juntos para asegurar que millones de usuarios de los dispositivos móviles en todo el mundo puedan disfrutar su aplicación</p>
+                    <button class="px-5">HAZ TU REQUERIMIENTO</button>
+                  </div>
+                  <div class="col-md-7">
+                    <figure>
+                      <img src="../assets/imagenes/app/appsios.svg" alt="">
+                    </figure>
+                  </div>
+                </div>
+              </li>
+              <li id="slide2">
+                <div class="row">
+                  <div class="col-md-5 lado-izquierdo">
+                    <p class="text-white">Creamos aplicaciones IOS que generan buenas experiencias y optimizan los procesos dentro de la empresa. Hagamos un equipo y trabajemos juntos para asegurar que millones de usuarios de los dispositivos móviles en todo el mundo puedan disfrutar su aplicación</p>
+                    <button class="px-5">HAZ TU REQUERIMIENTO</button>
+                  </div>
+                  <div class="col-md-7">
+                    <figure>
+                      <img src="../assets/imagenes/app/appsandroid.svg" alt="">
+                    </figure>
+                  </div>
+                </div>
+              </li>
+              <li id="slide3">
+                <div class="row">
+                  <div class="col-md-5 lado-izquierdo">
+                    <p class="text-white">Creamos aplicaciones IOS que generan buenas experiencias y optimizan los procesos dentro de la empresa. Hagamos un equipo y trabajemos juntos para asegurar que millones de usuarios de los dispositivos móviles en todo el mundo puedan disfrutar su aplicación</p>
+                    <button class="px-5">HAZ TU REQUERIMIENTO</button>
+                  </div>
+                  <div class="col-md-7">
+                    <figure>
+                      <img src="../assets/imagenes/app/appsios.svg" alt="">
+                    </figure>
+                  </div>
+                </div>
+              </li>
+              <li id="slide4">
+                <div class="row">
+                  <div class="col-md-5 lado-izquierdo">
+                    <p class="text-white">Creamos aplicaciones IOS que generan buenas experiencias y optimizan los procesos dentro de la empresa. Hagamos un equipo y trabajemos juntos para asegurar que millones de usuarios de los dispositivos móviles en todo el mundo puedan disfrutar su aplicación</p>
+                    <button class="px-5">HAZ TU REQUERIMIENTO</button>
+                  </div>
+                  <div class="col-md-7">
+                    <figure>
+                      <img src="../assets/imagenes/app/appsios.svg" alt="">
+                    </figure>
+                  </div>
+                </div>
+              </li>
+           </ul>
+          </div>
+         
+        </div>
+    </section>
+    <section class="container-fluid section-experiencias" >
+        <div class="container">
+          <h1>CONSTRUIMOS EXPERIENCIAS DISTINTAS</h1>
+        <div class="row">
+          <div class="col-md-4 capsulas-experiencias">
+            <figure>
+              <img src="../assets/imagenes/iconos/app/icon1.svg" alt="">
+            </figure>
+            <p class="primer-cuadro">Lorem Ipsum</p>
+            <p>Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. </p>
+          </div>
+          <div class="col-md-4 capsulas-experiencias">
+            <figure>
+              <img src="../assets/imagenes/iconos/app/icon2.svg" alt="">
+            </figure>
+            <p class="segundo-cuadro">Lorem Ipsum</p>
+            <p>Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. </p>
+          </div>
+          <div class="col-md-4 capsulas-experiencias">
+            <figure>
+              <img src="../assets/imagenes/iconos/app/icon3.svg" alt="">
+            </figure>
+            <p class="tercer-cuadro">Lorem Ipsum</p>
+            <p>Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. </p>
+          </div>
+        </div>
+        </div>
+    </section>
+    <footer class="container mt-5">
+      <div class="logo-redes">
+        <div>
+          <figure>
+            <img src="../assets/imagenes/rofailogo.svg" alt="">
+          </figure>
+        </div>
+        <div class="siguenos">
+          <p class="text-white">SIGUENOS</p>
+          <div>
+            <a target="_blank" href="https://www.facebook.com/rofai.biz/"><img src="../assets/imagenes/iconos/icon-twitter.svg" alt=""  ></a>
+            <a target="_blank" href="https://www.facebook.com/rofai.biz/"><img src="../assets/imagenes/iconos/icon-facebook.svg" alt=""  ></a>
+            <a target="_blank" href="https://www.instagram.com/consultoriarofai/"><img src="../assets/imagenes/iconos/icon-instagram.svg" alt=""  ></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCR0EUPT6npUelnhu7nHvmQA"><img src="../assets/imagenes/iconos/icon-youtube.svg" alt=""  ></a>
+          </div>
+        </div>
+      </div>
+      <div style="width: 100%;text-align: center;" class="text-white mt-2">
+        <p>© 2020 Rofai.biz</p>
+      </div>
+    </footer>
+
+
+    <!-- aqui el modal de contacto -->
+    <div>
+      <div id="contactenos" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content formulario">
+            <div  class="modal-header text-center">
+              <img src="../assets/imagenes/rofailogo2.svg" alt="">
+              <button class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class=" container">
+                <div class="row justify-content-center">
+                  <div class="col-sm-6 text-center">
+                    <a href="https://api.whatsapp.com/send?phone=51946287375"><img class="iconos" style="margin-bottom: 10px;width: 20px;" src="../assets/imagenes/iconos/telefono.svg" alt=""></a>
+                    <p style="line-height: 2px;"> <strong>+51 946 287 375</strong></p>
+                    <p style="line-height: 2px;"> <strong>+51 962 533 025</strong></p>
+                  </div>
+                  <div class="col-sm-6 text-center">
+                    <a href="../assets/contacto.html"><img style="margin-bottom: 5px;width: 25px;" class="iconos" src="../assets/imagenes/iconos/ubicacion.svg" alt=""></a>
+                    <p style="line-height: 15px;"><strong>San Luis, Lima, Perú</strong></p>              </div>
+                  <div class="col-sm-12 text-center ">
+                    <img style="width: 30px" src="../assets/imagenes/iconos/correo.svg" alt="">
+                    <h3 style="font-family: rezland; color:#002a60" class="text-center"><strong>@mail</strong></h3>
+                  </div>              
+                </div>
+                <div class="col-sm-12 row text-left">
+                  <div class="col-md-12">
+                    <small class=" text-uppercase"><strong>Nombre y apellido</strong></small>
+                    <input type="text" placeholder="Nombre y Apellido" class="form-control" required>
+                  </div>
+                  <div class="col-sm-12">
+                    <small class=" text-uppercase"><strong>Email</strong></small>
+                    <input type="text" placeholder="Email" class="form-control" required type="email">
+                  </div>
+                 
+                </div>
+                <div class="col-sm-12 row text-left">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <small class=" text-uppercase"><strong>Mensaje</strong></small>
+                      <textarea id="my-textarea" placeholder="Escribenos" class="form-control" name="" rows="6"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+               <div class="col-sm-12 text-center ">
+                  <a class=" btn-enviar">ENVIAR</a>
+               </div>
+              </div>
+              </div>
+              <table>
+    
+    
+              </table>
+            </div>
+            <div class="modal-footer">
+              Footer
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+          <script src="../assets/js/bootstrap.min.js"></script>
+          <script src="../assets/js/anime.js"></script>
+          <script src="../assets/js/popper.min.js"></script>
+          <script src="../assets/js/app.js"></script> 
+</body>
+</html>
