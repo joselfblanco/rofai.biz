@@ -116,3 +116,38 @@
         }
       }
  }
+ @media only screen and (max-width: 900px){
+     
+    //  estilos del encabezado
+     .home{  
+        .imghome1{  
+          
+          .container-encabezado{
+            padding-top: 4%;
+            padding-bottom: 4%;
+            .encabezado{
+              background-size: 50%;
+              background-position-x: center;
+              height: 40px;
+              .button-contactenos{
+                display: none;
+              }
+            }    
+          }
+        }
+      }
+    //   estilos del pie de pagina
+    .div-footer{
+      text-align: center;
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        .img-logo-footer{
+          display: none;
+        }
+        .imagenes-footer{
+          width: 100%!important;
+        }
+      }
+ }

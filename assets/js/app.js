@@ -12,15 +12,12 @@
         translateY:[0,-10],
         direction:"alternate",
         duration:1000,
+        opacity:["100%","50%"],
+        boderColor: '#FFF',
         delay:anime.stagger(100)
    
     });
-    // anime({
-    //   targets:'.container-encabezado',
-    //   backgroundColor:'#000',
-    //   duration:1000,
-    //   direction:"alternate"
-    // });
+    
     }
     
     function closeNav() {
